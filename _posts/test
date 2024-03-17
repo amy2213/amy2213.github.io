@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "My First Data Analysis"
+date:   2024-03-17 10:00:00 +0000
+categories: data analysis
+---
+
+# Introduction
+
+This is my first data analysis project which I've chosen to showcase on my portfolio. I used Python and the Pandas library for data manipulation, and Matplotlib for creating visualizations.
+
+## Data Cleaning
+
+I started with cleaning the data. Here's a snippet of the code I used:
+
+```python
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('data.csv')
+
+# Clean the data
+df.dropna(inplace=True)
